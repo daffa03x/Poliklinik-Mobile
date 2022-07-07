@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kadazi.poliklinikapps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:7:5-99:19
+14        android:allowBackup="true"
+14-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Daffa\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.PoliklinikApps" >
+22-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:13:9-52
+23        <activity
+23-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:14:9-16:40
+24            android:name="com.kadazi.poliklinikapps.Activity.RiwayatPemeriksaanResepActivity"
+24-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:15:13-69
+25            android:exported="false" />
+25-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:16:13-37
+26        <activity
+26-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:17:9-19:40
+27            android:name="com.kadazi.poliklinikapps.Activity.UploadBuktiPembayaranActivity"
+27-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:18:13-67
+28            android:exported="false" />
+28-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:19:13-37
+29        <activity
+29-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:20:9-22:40
+30            android:name="com.kadazi.poliklinikapps.Activity.MediaPembayaranActivity"
+30-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:21:13-61
+31            android:exported="false" />
+31-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:22:13-37
+32        <activity
+32-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:23:9-25:39
+33            android:name="com.kadazi.poliklinikapps.Activity.DetailResepActivity"
+33-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:24:13-57
+34            android:exported="false" />
+34-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:25:13-37
+35        <activity
+35-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:26:9-28:40
+36            android:name="com.kadazi.poliklinikapps.Activity.DetailPembayaran"
+36-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:27:13-54
+37            android:exported="false" />
+37-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:28:13-37
+38        <activity
+38-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.kadazi.poliklinikapps.Activity.DetailJadwalDokter"
+39-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:30:13-56
+40            android:exported="false" />
+40-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:32:9-34:40
+42            android:name="com.kadazi.poliklinikapps.Activity.JadwalPraktekActivity"
+42-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:33:13-59
+43            android:exported="false" />
+43-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:34:13-37
+44        <activity
+44-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:35:9-37:40
+45            android:name="com.kadazi.poliklinikapps.Activity.AntrianActivity"
+45-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:36:13-53
+46            android:exported="false" />
+46-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:37:13-37
+47        <activity
+47-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:38:9-40:40
+48            android:name="com.kadazi.poliklinikapps.Activity.PembayaranActivity"
+48-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:39:13-56
+49            android:exported="false" />
+49-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:40:13-37
+50        <activity
+50-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:41:9-43:40
+51            android:name="com.kadazi.poliklinikapps.Activity.SignUpSuccesActivity"
+51-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:42:13-58
+52            android:exported="false" />
+52-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:43:13-37
+53        <activity
+53-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:44:9-46:40
+54            android:name="com.kadazi.poliklinikapps.Activity.SignUpPasienActivity"
+54-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:45:13-58
+55            android:exported="false" />
+55-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:46:13-37
+56        <activity
+56-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:47:9-49:40
+57            android:name="com.kadazi.poliklinikapps.Activity.SignUpEmailActivity"
+57-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:48:13-57
+58            android:exported="false" />
+58-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:49:13-37
+59        <activity
+59-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:50:9-52:40
+60            android:name="com.kadazi.poliklinikapps.Activity.DaftarBaruActivity"
+60-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:51:13-56
+61            android:exported="false" />
+61-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:52:13-37
+62        <activity
+62-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:53:9-55:40
+63            android:name="com.kadazi.poliklinikapps.Activity.DaftarActivity"
+63-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:54:13-52
+64            android:exported="false" />
+64-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:55:13-37
+65        <activity
+65-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:56:9-58:40
+66            android:name="com.kadazi.poliklinikapps.Activity.LaporkanMasalahActivity"
+66-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:57:13-61
+67            android:exported="false" />
+67-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:58:13-37
+68        <activity
+68-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:59:9-61:40
+69            android:name="com.kadazi.poliklinikapps.Activity.HelpSupportActivity"
+69-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:60:13-57
+70            android:exported="false" />
+70-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:61:13-37
+71        <activity
+71-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:62:9-64:40
+72            android:name="com.kadazi.poliklinikapps.Activity.EditPasienActivity"
+72-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:63:13-56
+73            android:exported="false" />
+73-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:64:13-37
+74        <activity
+74-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:65:9-67:40
+75            android:name="com.kadazi.poliklinikapps.Activity.EditAkunActivity"
+75-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:66:13-54
+76            android:exported="false" />
+76-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:67:13-37
+77        <activity
+77-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:68:9-70:40
+78            android:name="com.kadazi.poliklinikapps.Activity.MenuActivity"
+78-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:69:13-50
+79            android:exported="false" />
+79-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:70:13-37
+80        <activity
+80-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:71:9-73:40
+81            android:name="com.kadazi.poliklinikapps.Activity.DetailPemeriksaanActivity"
+81-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:72:13-63
+82            android:exported="false" />
+82-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:73:13-37
+83        <activity
+83-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:74:9-76:40
+84            android:name="com.kadazi.poliklinikapps.Activity.RiwayatPemeriksaanActivity"
+84-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:75:13-64
+85            android:exported="false" />
+85-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:76:13-37
+86        <activity
+86-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:77:9-79:40
+87            android:name="com.kadazi.poliklinikapps.Activity.ResepActivity"
+87-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:78:13-51
+88            android:exported="false" />
+88-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:79:13-37
+89        <activity
+89-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:80:9-82:40
+90            android:name="com.kadazi.poliklinikapps.Activity.LoginActivity"
+90-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:81:13-51
+91            android:exported="false" />
+91-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:82:13-37
+92        <activity
+92-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:83:9-85:40
+93            android:name="com.kadazi.poliklinikapps.Activity.PengaturanActivity"
+93-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:84:13-56
+94            android:exported="false" />
+94-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:85:13-37
+95        <activity
+95-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:86:9-94:20
+96            android:name="com.kadazi.poliklinikapps.Activity.SplashScreenActivity"
+96-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:87:13-58
+97            android:exported="true" >
+97-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:88:13-36
+98            <intent-filter>
+98-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:89:13-93:29
+99                <action android:name="android.intent.action.MAIN" />
+99-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:90:17-69
+99-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:90:25-66
+100
+101                <category android:name="android.intent.category.LAUNCHER" />
+101-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:92:17-77
+101-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:92:27-74
+102            </intent-filter>
+103        </activity>
+104
+105        <meta-data
+105-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:96:9-98:57
+106            android:name="preloaded_fonts"
+106-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:97:13-43
+107            android:resource="@array/preloaded_fonts" />
+107-->C:\Project_android\Poliklinik-MobileApps-master\app\src\main\AndroidManifest.xml:98:13-54
+108
+109        <provider
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+111            android:authorities="com.kadazi.poliklinikapps.androidx-startup"
+111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+112            android:exported="false" >
+112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+113            <meta-data
+113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+114                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+114-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+115                android:value="androidx.startup" />
+115-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Daffa\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+116            <meta-data
+116-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Daffa\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Daffa\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+118                android:value="androidx.startup" />
+118-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Daffa\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+119        </provider>
+120    </application>
+121
+122</manifest>

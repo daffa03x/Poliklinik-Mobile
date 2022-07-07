@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PoliklinikApps.iml" filepath="$PROJECT_DIR$/.idea/modules/PoliklinikApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PoliklinikApps.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
